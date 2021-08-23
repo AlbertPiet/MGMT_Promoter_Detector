@@ -1,0 +1,10 @@
+<html>
+    <h1>MGMT Promoter Methylation Detector</h1>
+    <body>
+     <p> Please sumbit a .zip file with MRI dicom images labeled 'Image-Number' where Number is in the order of the layers</p>
+        <form action="/predict" method='POST' enctype="multipart/form-data">
+          <input type="file" id="myFile" name="thefile">
+          <input type="submit">
+        </form>
+    </body>
+</html>
